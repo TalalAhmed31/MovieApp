@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native';
-import './global.css';
-import 'app/globals.css';
+import './app/globals.css';
 
 export default function App() {
   return (

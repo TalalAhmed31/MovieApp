@@ -11,5 +11,5 @@ const config = mergeConfig(defaultConfig, {
 
 // Pass to NativeWind with correct CSS path
 module.exports = withNativeWind(config, {
-  input: "./app/global.css", // change to "./global.css" if file is at root
+  input: "./app/globals.css", // change to "./global.css" if file is at root
 });
